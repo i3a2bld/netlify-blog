@@ -6,12 +6,12 @@ date: "2020-03-28"
 slug: "Release"
 ---
 
-![](/images/release_pic_20200328.png)
+![](../images/release_pic_20200328.png)
 
 
-##Blog roadmap
+###Blog roadmap
 
-###2020
+#####2020
 - Gatsby conversion from Jeykll
 - Domain Registration
 - Google Adsense
@@ -19,18 +19,21 @@ slug: "Release"
 - Search Engine Optimazation - naver, google, bing, daum
 - CMS integration
 
-###2021
+#####2021
 - Font update
 - Naver blog link
 - Multi-language-format-blog (Korean and English)
 
-##Bugfix & release plan
-###Baseline 1.0.0	(30.04.2020)
+
+
+###Bugfix & release plan
+
+#####Baseline 1.0.0	(30.04.2020)
 - Home photo
 - Unify google accounts used for blog purpose into one
 
 
-##Things to do
+###Things to do
 - Plan to get Google Adsense (04.2020)
 - Camping plan
 - Family trip after COVID-19
