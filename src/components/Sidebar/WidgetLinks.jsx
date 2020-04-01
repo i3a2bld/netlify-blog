@@ -14,7 +14,7 @@ const WidgetLinks = ({ links }) => (
             <AutoLink
               key={link.label}
               to={link.url}
-              className="block border-color-light-grey padding-top-half padding-bottom-half"
+              className="block border-bottom border-color-light-grey padding-top-half padding-bottom-half"
             >
               <span>{link.label}</span>
             </AutoLink>

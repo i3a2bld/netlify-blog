@@ -1,4 +1,4 @@
-$sidebar-desktop-width: 300px;
+$sidebar-desktop-width: 330px;
 
 .main-container {
   display: flex;
@@ -18,7 +18,7 @@ $sidebar-desktop-width: 300px;
     flex-direction: row;
     .content-wrapper {
       padding-right: 3rem;
-      padding-left: 5rem;
+      border-right: 1px solid #ececec;
       width: calc(100% - #{$sidebar-desktop-width});
     }
     .sidebar-wrapper {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import GitalkComponent from "./GitalkComment";
+import Disqus from "./Disqus";
 
 class Comment extends Component {
   state = {
@@ -16,7 +16,7 @@ class Comment extends Component {
     const { extraClass, postNode, btnLoadComments } = this.props;
 
     return (
-      <div className={`comment-container ${extraClass}`}>
+      <div className={`comment-container text-center ${extraClass}`}>
         {!this.state.isShow && (
           <button className="btn-primary" onClick={this.handleClick}>
             {btnLoadComments}
@@ -24,7 +24,7 @@ class Comment extends Component {
         )}
 
         {this.state.isShow && (
-          <GitalkComponent />
+          <Disqus postNode={postNode} />
         )}
       </div>
     )

@@ -14,7 +14,7 @@ const WidgetCategory = ({ categoryList }) => (
           <AutoLink 
             key={category} 
             to={getCategoryPath(category)}
-            className="block border-color-light-grey padding-top-half padding-bottom-half"
+            className="block border-bottom border-color-light-grey padding-top-half padding-bottom-half"
           >
             <span>{category}</span>
           </AutoLink>

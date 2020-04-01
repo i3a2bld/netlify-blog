@@ -17,7 +17,7 @@ const WidgetLatesPosts = ({ latestPostEdges }) => {
             <AutoLink
               key={post.title}
               to={post.slug}
-              className="block border-color-light-grey padding-top-half padding-bottom-half"
+              className="block border-bottom border-color-light-grey padding-top-half padding-bottom-half"
             >
               <span>{post.title}</span>
             </AutoLink>

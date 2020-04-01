@@ -4,7 +4,7 @@ const config = {
   siteTitleShort: "Round Angular", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Round angular blog sharing daily life and what else", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
-    siteUrl: "https://daegyun.netlify.com/", // Domain of your website without pathPrefix.
+    siteUrl: "https://i3a2bld.netlify.com/", // Domain of your website without pathPrefix.
   pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Trial Gatby blog and sharing information I found recently.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
@@ -157,8 +157,8 @@ const config = {
     { label: "Home", url: "/" },
     { label: "About", url: "/about" },
     { label: "Contact", url: "/contact" },
-    { label: "Release note", url: "/release" },
-    { label: "Privacy Policy", url: "/privacy" },
+    { label: "Release", url: "/release" },
+    { label: "Privacy", url: "/privacy" },
     { label: "Sitemap", url: "https://github.com/nadaegyun/sitemap.xml" },
   ],
   copyright: "Copyright © 2020 Daegyun Na. Unless otherwise noted, all code MIT license.",
@@ -169,7 +169,7 @@ const config = {
     '/image/main_20200323.png',
     '/image/photographybanner-new.jpg'
   ],
-  headerDescription:'just code it and record life'  //index page header description
+  headerDescription:'Blog made by JS, Markdown, React and Gatsby'  //index page header description
   
 };
 
