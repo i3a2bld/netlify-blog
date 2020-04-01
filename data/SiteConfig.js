@@ -22,8 +22,8 @@ const config = {
   postInCategories: "",
   postOnDate: "Posted on",
   // Use for comment
-  lazyLoadComments: true,
-  disqusShortname: "daegyun", // Disqus shortname.
+  lazyLoadComments: false,
+    disqusShortname: "i3a2bld-netlify-com", // Disqus shortname.
   btnLoadComments: "Load comments",
   // Use for home page
   numberLoadmore: 6,
