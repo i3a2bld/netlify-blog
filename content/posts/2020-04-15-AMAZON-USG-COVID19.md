@@ -6,13 +6,13 @@ cover: "../images/20200415-COVER-purchase-amazon-USG.png"
 date: "2020-04-15"
 slug: "Purchase-amazon-USG"
 keywords: "Purchase"
-categories: 
+categories:
     - Purchase
     - Amazon
 tags:
-	- Amazon
-	- Ubiquiti
-	- USG
+  - amazon
+  - Ubiquiti
+  - USG
 language: Korean
 
 ---
@@ -24,6 +24,4 @@ language: Korean
 
 판매자에게 연락해도 답변도 없어서 판매자가 코로나에 감염되었나 하는 생각까지 들정도지만, 좋은 생각만 하기로 다짐한터라 더이상 생각하지 안기로 하였다.
 
-어여 기다리던 USG를 설치하고 라즈베리도 NUC로 업글하고 집에 설치된 [UniFi Long Range Access Point](https://www.ui.com/unifi/unifi-ap-ac-lr/)와 iptime 공유기와의 부조합도 어여 끝내고 싶다. 
-
-
+어여 기다리던 USG를 설치하고 라즈베리도 NUC로 업글하고 집에 설치된 [UniFi Long Range Access Point](https://www.ui.com/unifi/unifi-ap-ac-lr/)와 iptime 공유기와의 부조합도 어여 끝내고 싶다.

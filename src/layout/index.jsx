@@ -13,22 +13,23 @@ const MainLayout = ({ children, hasFooter = true}) => (
   <div>
     <Helmet htmlAttributes={{ lang: siteConfig.siteLang }}>
       <meta name="description" content={siteConfig.siteDescription} />
+      <meta name="google-site-verification" content="DnoPwzTV-L4MxGirCIW4JvgbM1NbpsIPbpg4htDnzUE" />
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     </Helmet>
-    <Navigation 
+    <Navigation
       brand={brand}
-      title={siteConfig.navTitle} 
-      links={siteConfig.navLinks} 
+      title={siteConfig.navTitle}
+      links={siteConfig.navLinks}
     />
     {children}
     {hasFooter && (
-      <Footer 
+      <Footer
         socials={siteConfig.socialLinks}
         links={siteConfig.footerLinks}
         copyright={siteConfig.copyright}
       />
     )}
-    <ScrollToTop 
+    <ScrollToTop
       color="#FFF"
       bgColor="grey-half"
     />

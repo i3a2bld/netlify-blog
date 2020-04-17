@@ -15,55 +15,55 @@ module.exports = {
     }
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-lodash",
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-lodash',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         name: "assets",
         path: `${__dirname}/static/`
       }
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         name: "posts",
         path: `${__dirname}/content/`
       }
     },
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-images",
+            resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 660,
-              linkImagesToOriginal: false,
+              maxWidth: 800,
+              linkImagesToOriginal: true,
               quality: 100
             }
           },
           {
             resolve: 'gatsby-remark-embed-video',
             options: {
-              width: 660,
+              width: 800,
               ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
               related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
               noIframeBorder: true //Optional: Disable insertion of <style> border: 0
             }
           },
           {
-            resolve: "gatsby-remark-responsive-iframe"
+            resolve: 'gatsby-remark-responsive-iframe'
           },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-autolink-headers"
+          'gatsby-remark-prismjs',
+          'gatsby-remark-copy-linked-files',
+          'gatsby-remark-autolink-headers'
         ]
       }
     },
 
      {
-       resolve: "gatsby-plugin-google-analytics",
+       resolve: 'gatsby-plugin-google-analytics',
        options: {
        trackingId: "UA-134142894-2"
        },
@@ -74,14 +74,14 @@ module.exports = {
         color: config.themeColor
       }
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-catch-links",
-    "gatsby-plugin-twitter",
-    "gatsby-plugin-sass",
-    "gatsby-plugin-sitemap",
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-catch-links',
+    'gatsby-plugin-twitter',
+    'gatsby-plugin-sass',
+    'gatsby-plugin-sitemap',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
         name: config.siteTitle,
         short_name: config.siteTitleShort,
@@ -104,9 +104,9 @@ module.exports = {
         ]
       }
     },
-    "gatsby-plugin-offline",
+    'gatsby-plugin-offline',
     {
-      resolve: "gatsby-plugin-feed",
+      resolve: 'gatsby-plugin-feed',
       options: {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
@@ -152,10 +152,10 @@ module.exports = {
               allMarkdownRemark(
                 limit: 1000,
                 sort: { order: DESC, fields: [fields___date] },
-                filter: { 
-                  frontmatter: { 
-                    template: { eq: "post" } 
-                  } 
+                filter: {
+                  frontmatter: {
+                    template: { eq: "post" }
+                  }
                 }
               ) {
                 edges {
