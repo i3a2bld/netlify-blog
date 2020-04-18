@@ -4,7 +4,7 @@ const config = {
   siteTitleShort: "Round Angular", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Round angular blog sharing daily life and what else", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
-    siteUrl: "https://i3a2bld.netlify.com/", // Domain of your website without pathPrefix.
+    siteUrl: "https://i3a2bld.netlify.app/", // Domain of your website without pathPrefix.
   pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Trial Gatby blog and sharing information I found recently.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
@@ -33,7 +33,7 @@ const config = {
   homeHeader: "Home",
   // Use for page
   pathPrefixPagination: "/page", // Prefix path for pagination
-  pageNotFoundTitle: "Page Not Found", // 
+  pageNotFoundTitle: "Page Not Found", //
   pageNotFoundBtn: "Back to our site",
   pageNotFoundContent: "Looks like you've followed a broken link or entered a URL that doesn't exist on this site.",
   // Use for tag
@@ -64,6 +64,10 @@ const config = {
    {
       label: "I3A2BLD",
        url: "https://i3a2bld.github.io"
+     },
+   {
+      label: "Naver Blog",
+      url: "https://blog.naver.com/i3a2bld"
       }
   ],
   // Use for user info
@@ -122,10 +126,10 @@ const config = {
   ],
   // Use for footer
     socialLinks: [
-      { 
-      label: "Facebook", 
-      url: "https://www.facebook.com/daegyun.na.5", 
-      iconClassName: "fab facebook-square" 
+      {
+      label: "Facebook",
+      url: "https://www.facebook.com/daegyun.na.5",
+      iconClassName: "fab facebook-square"
       },
       {
       label: "Twitter",
@@ -170,7 +174,7 @@ const config = {
     '/image/photographybanner-new.jpg'
   ],
   headerDescription:'Blog made by JS, Markdown, React and Gatsby'  //index page header description
-  
+
 };
 
 
