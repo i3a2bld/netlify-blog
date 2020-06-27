@@ -11,16 +11,6 @@ import "../../content/styles/customize.scss";
 
 const MainLayout = ({ children, hasFooter = true}) => (
   <div>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134142894-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-134142894-2');
-</script>
-
     <Helmet htmlAttributes={{ lang: siteConfig.siteLang }}>
       <meta name="description" content={siteConfig.siteDescription} />
       <meta name="google-site-verification" content="g6Z-Q6RzMa5kRT-YFOG8vFl5klCJHaIVZ_mZzYFiGcw">
