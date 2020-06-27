@@ -57,24 +57,16 @@ const config = {
   // Use for links widget
   sidebarSticky: true,
   sidebarLinks: [
-    {
-      label: "Round Angular",
-       url: "https://roundangular.github.io"
-      },
-   {
-      label: "I3A2BLD",
-       url: "https://i3a2bld.github.io"
-     },
    {
       label: "Naver Blog",
-      url: "https://blog.naver.com/i3a2bld"
+      url: "https://blog.naver.com/roundangular"
       }
   ],
   // Use for user info
   userName: "Daegyun", // Username to display in the author segment.
   userEmail: "daegyun.na@gmail.com", // Email used for RSS feed"s author segment
   userTwitter: "@NaDaegyun", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "Yongin, Korea", // User location to display in the author segment.
+  userLocation: "Yongin, South Korea", // User location to display in the author segment.
   userAvatar: "", // User avatar to display in the author segment.
   userDescription:
     "Project Manager in automotive, Lover to learn new", // User description to display in the author segment.
@@ -112,14 +104,14 @@ const config = {
       },
       {
           label: "GitHub",
-          url: "https://github.com/nadaegyun",
+          url: "https://github.com/roundangular",
           iconClassName: "fab github-square"
       }
   ],
   // Use for navigation
   navTitle: "Round Angular",
     navLinks: [
-    { label: "Post", url: "/post" },
+    { label: "Post", url: "/" },
     { label: "Photo", url: "/photo" },
     { label: "About", url: "/about" },
     { label: "Contact", url: "/contact" },
@@ -153,7 +145,7 @@ const config = {
       },
       {
       label: "GitHub",
-      url: "https://github.com/nadaegyun",
+      url: "https://github.com/roundangular",
       iconClassName: "fab github-square"
       }
   ],
@@ -163,7 +155,7 @@ const config = {
     { label: "Contact", url: "/contact" },
     { label: "Release", url: "/release" },
     { label: "Privacy", url: "/privacy" },
-    { label: "Sitemap", url: "https://github.com/nadaegyun/sitemap.xml" },
+    { label: "Sitemap", url: "https:/roundangular.netlify.app/sitemap.xml" },
   ],
   copyright: "Copyright © 2020 Daegyun Na. Unless otherwise noted, all code MIT license.",
   // Use for manifest
