@@ -2,15 +2,15 @@ const config = {
   // Site info
   siteTitle: "Round Angular", // Site title.
   siteTitleShort: "Round Angular", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Round angular blog sharing daily life and what else", // Alternative site title for SEO.
+  siteTitleAlt: "Billionaire trainee who wants to share info about Korea and technology", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
-    siteUrl: "https://i3a2bld.netlify.app/", // Domain of your website without pathPrefix.
+    siteUrl: "https://roundangular.netlify.app/", // Domain of your website without pathPrefix.
   pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "Trial Gatby blog and sharing information I found recently.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Gatby blog to share information on South Korea and Raspberry Pi, macOS and IT", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteLang: "en",
   siteFBAppID: "", // FB Application ID for using app insights
-  googleAnalyticsID: "UUA-134200534-1", // GA tracking ID.
+  googleAnalyticsID: "UA-134142894-2", // GA tracking ID.
   postDefaultCategoryID: "", // Default category for posts.
   // Common for tag, category pages and widget
   numberLatestPost: 6,
