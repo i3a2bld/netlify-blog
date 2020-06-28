@@ -17,6 +17,8 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-lodash',
+    'gatsby-plugin-sitemap',
+
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -61,6 +63,7 @@ module.exports = {
         ]
       }
     },
+
 
      {
        resolve: 'gatsby-plugin-google-analytics',
