@@ -13,7 +13,7 @@ const MainLayout = ({ children, hasFooter = true}) => (
   <div>
     <Helmet htmlAttributes={{ lang: siteConfig.siteLang }}>
       <meta name="description" content={siteConfig.siteDescription} />
-      <meta name="google-site-verification" content="g6Z-Q6RzMa5kRT-YFOG8vFl5klCJHaIVZ_mZzYFiGcw">
+      <meta name="google-site-verification" content="g6Z-Q6RzMa5kRT-YFOG8vFl5klCJHaIVZ_mZzYFiGcw" />
       <meta name="naver-site-verification" content="c88b4c221e02f10f0d8f64e01e59cb85d4968497" />
     </Helmet>
     <Navigation
