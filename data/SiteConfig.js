@@ -1,12 +1,12 @@
 const config = {
   // Site info
-  siteTitle: "Round Angular", // Site title.
+  siteTitle: "Billionaire Trainee", // Site title.
   siteTitleShort: "Round Angular", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Billionaire trainee who wants to share info about Korea and technology", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
     siteUrl: "https://roundangular.netlify.app/", // Domain of your website without pathPrefix.
   pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "Gatby blog to share information on South Korea and Raspberry Pi, macOS and IT", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "The purpose of this blog is to share information on living and travelling in South Korea with those who come from other countires and are living and travelling in South Korea and also some information about IT and Blog building", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteLang: "en",
   siteFBAppID: "", // FB Application ID for using app insights
@@ -114,7 +114,6 @@ const config = {
     { label: "Post", url: "/" },
     { label: "Photo", url: "/photo" },
     { label: "About", url: "/about" },
-    { label: "Contact", url: "/contact" },
   ],
   // Use for footer
     socialLinks: [
@@ -152,7 +151,6 @@ const config = {
   footerLinks: [
     { label: "Home", url: "/" },
     { label: "About", url: "/about" },
-    { label: "Contact", url: "/contact" },
     { label: "Release", url: "/release" },
     { label: "Privacy", url: "/privacy" },
     { label: "Sitemap", url: "https:/roundangular.netlify.app/sitemap.xml" },
