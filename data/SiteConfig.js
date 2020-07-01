@@ -1,8 +1,8 @@
 const config = {
   // Site info
-  siteTitle: "Billionaire Trainee", // Site title.
+  siteTitle: "Round Angular", // Site title.
   siteTitleShort: "Round Angular", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Billionaire trainee who wants to share info about Korea and technology", // Alternative site title for SEO.
+  siteTitleAlt: "Billionaire trainee who wants to share information about South Korea and technology", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
     siteUrl: "https://roundangular.netlify.app/", // Domain of your website without pathPrefix.
   pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
@@ -163,7 +163,7 @@ const config = {
     '/image/main_20200323.png',
     '/image/photographybanner-new.jpg'
   ],
-  headerDescription:'Blog made by JS, Markdown, React and Gatsby'  //index page header description
+  headerDescription:'This blog made with JS, CSS, React, Gatsby and my idea'  //index page header description
 
 };
 
