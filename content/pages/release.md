@@ -11,10 +11,10 @@ slug: "Release"
 
 ####Blog roadmap
 ######2020
-- Gatsby conversion from Jeykll
+- Gatsby conversion from Jeykll - done
 - Domain Registration
 - Google Adsense
-- Google Analytics
+- Google Analytics -done
 - Search Engine Optimazation - naver, google, bing, daum
 - CMS integration
 
@@ -38,7 +38,7 @@ slug: "Release"
 - Post page improvement
 - Photo page to be designed
 - Google analytics
-- 
+-
 ######Baseline 1.1.0	(09.08.2020)
 - Gatsby conversion
 - Search Engine Optimzation
