@@ -6,12 +6,12 @@ cover: "../images/20200314-daily-life.png"
 date: "2020-03-14"
 slug: "Daily life 14.03.2020"
 keywords: "critical thinking"
-categories: 
+categories:
     - Daily Life
 tags:
-	- Critical Thinking
+  - Critical Thinking
 language: English
-	
+
 ---
 
 > [Ciritical thinking](https://en.wikipedia.org/wiki/Critical_thinking "Critical thinking") is the analysis of facts to form a judgment. The subject is complex, and several different definitions exist, which generally include the rational, skeptical, unbiased analysis, or evaluation of factual evidence. Critical thinking is self-directed, self-disciplined, self-monitored, and self-corrective thinking. It presupposes assent to rigorous standards of excellence and mindful command of their use. It entails effective communication and problem-solving abilities as well as a commitment to overcome native egocentrism and sociocentrism.
