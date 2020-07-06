@@ -9,17 +9,17 @@ description: This is a description on About
 
 <br>
 
-### About me
+**About me**  
 Born in South Korea  
 Live in South Korea  
 Always look for new things that I can make me passionate, I would say "alive"  
 Dislike unclear status  
 MBTI ISTJ-T tested on June 2020  
 
-### Education
+**Education**  
 Majored in Materials Engineering and Business administration  
 
-### Programs
+**Programs**  
 MS office, MS Project, Mindmanager  
 ClearQuest, ClearCase, Doors, JIRA, MKS  
 C, Python  
@@ -28,10 +28,10 @@ CANoe, CANalyzer
 ASCET, INCA  
 Linux, macOS  
 
-### Recent interests and learning
+**Recent interests and learning**  
 Gatsby, CMS, GraphQL, Markdown, Google Search Console,  
 
-### Interest
+**Interest**  
 New IT device  
 Planning  
 IoT  
@@ -40,7 +40,7 @@ Dream come true
 Photograph (Drone, DSLR)  
 Programed blog  
 
-### Work Experience
+**Work Experience**  
 Experienced as engineer and project manager in automotive since 2003  
 - Chassis system (Electronic Braking system and Driver Assistance system)  
 - Battery system (Lithium-ion cell and Battery management system)  
@@ -51,5 +51,5 @@ Experienced as engineer and project manager in automotive since 2003
   
 Any interest, visit to my [Linkedin](https://www.linkedin.com/in/daegyun-na-86920993/)  
   
-### My target in my life
+**My target in my life**  
 Target and plan to be financially independent and retire early as soon as possible  
