@@ -153,6 +153,7 @@ const config = {
     { label: "About", url: "/about" },
     { label: "Release", url: "/release" },
     { label: "Privacy", url: "/privacy" },
+    { label: "Terms and Conditions", url: "/termsnconditions" },
     { label: "Sitemap", url: "https:/roundangular.netlify.app/sitemap.xml" },
   ],
   copyright: "Copyright © 2020 Daegyun Na. Unless otherwise noted, all code MIT license.",
