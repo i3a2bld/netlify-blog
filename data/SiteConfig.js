@@ -113,7 +113,6 @@ const config = {
     navLinks: [
     { label: "Post", url: "/" },
     { label: "Photo", url: "/photo" },
-    { label: "About", url: "/about" },
   ],
   // Use for footer
     socialLinks: [
