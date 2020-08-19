@@ -12,7 +12,7 @@ const config = {
   siteRsslink: "http://feeds.feedburner.com/Roundangular",
   siteLang: "en",
   siteFBAppID: "", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-171046936-1", // GA tracking ID.
+  googleAnalyticsID: "UA-175783895-1", // GA tracking ID.
   postDefaultCategoryID: "", // Default category for posts.
   // Common for tag, category pages and widget
   numberLatestPost: 6,
@@ -86,12 +86,12 @@ const config = {
       },
       {
           label: "Twitter",
-          url: "https://twitter.com/roundangular",
+          url: "https://twitter.com/daegyunna",
           iconClassName: "fab twitter-square"
       },
       {
           label: "Linkedin",
-          url: "https://www.linkedin.com/in/daegyun-na-86920993/",
+          url: "https://www.linkedin.com/in/daegyunna",
           iconClassName: "fab linkedin"
       },
       {
@@ -106,7 +106,7 @@ const config = {
       },
       {
           label: "GitHub",
-          url: "https://github.com/roundangular",
+          url: "https://github.com/ndg1yo",
           iconClassName: "fab github-square"
       }
   ],

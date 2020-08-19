@@ -21,6 +21,12 @@ module.exports = {
      trackingId: config.googleAnalyticsID
     },
   },
+  {
+    resolve: `gatsby-plugin-gtag`,
+    options: {
+      trackingId: config.googleAnalyticsID
+    },
+  },
   "gatsby-plugin-react-helmet",
   "gatsby-plugin-lodash",
   {
