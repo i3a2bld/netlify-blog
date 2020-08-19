@@ -1,13 +1,15 @@
 const config = {
   // Site info
-  siteTitle: "Round Angular", // Site title.
-  siteTitleShort: "Round Angular", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Billionaire trainee who wants to share information about South Korea and technology", // Alternative site title for SEO.
+  siteTitle: "Realstic Dreamer", // Site title.
+  siteTitleShort: "Realstic Dreamer", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Realstic Dreamer", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
     siteUrl: "https://roundangular.netlify.app/", // Domain of your website without pathPrefix.
   pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "The purpose of this blog is to share information on living and travelling in South Korea with those who come from other countires and are living and travelling in South Korea and also some information about IT and Blog building", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
+  siteRsstitle: "Daegyun's new feed",
+  siteRsslink: "http://feeds.feedburner.com/Roundangular",
   siteLang: "en",
   siteFBAppID: "", // FB Application ID for using app insights
   googleAnalyticsID: "UA-171046936-1", // GA tracking ID.
@@ -109,9 +111,9 @@ const config = {
       }
   ],
   // Use for navigation
-  navTitle: "Round Angular",
+  navTitle: "Daegyun Na",
     navLinks: [
-    { label: "Post", url: "/" },
+    { label: "Post", url: "/post" },
     { label: "Photo", url: "/photo" },
   ],
   // Use for footer
@@ -123,12 +125,12 @@ const config = {
       },
       {
       label: "Twitter",
-      url: "https://twitter.com/roundangular",
+      url: "https://twitter.com/daegyunna",
       iconClassName: "fab twitter-square"
       },
       {
       label: "Linkedin",
-      url: "https://www.linkedin.com/in/daegyun-na-86920993/",
+      url: "https://www.linkedin.com/in/daegyunna/",
       iconClassName: "fab linkedin"
       },
       {
@@ -143,7 +145,7 @@ const config = {
       },
       {
       label: "GitHub",
-      url: "https://github.com/roundangular",
+      url: "https://github.com/ndg1yo",
       iconClassName: "fab github-square"
       }
   ],
@@ -155,10 +157,9 @@ const config = {
     { label: "Terms and Conditions", url: "/termsnconditions" },
     { label: "Sitemap", url: "https:/roundangular.netlify.app/sitemap.xml" },
   ],
-  copyright: "Copyright © 2020 Daegyun Na. Unless otherwise noted, all code MIT license.",
-  // Use for manifest
-  themeColor: "#2196F3", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#FFF", // Used for setting manifest background color.
+  copyright: "Daegyun Na.", // Use for manifest
+  backgroundColor: "#f7f0eb", // Used for setting manifest background color.
+  themeColor: "#a2466c", // Used for setting manifest and progress theme colors.
   headerImage: [            //Index page header image
     '/image/main_20200323.png',
     '/image/photographybanner-new.jpg'

@@ -1,8 +1,11 @@
 import React from "react";
+import Rss from './Rss';
 
 const Copyright = ({ copyright }) => (
   <div className="copyright-container margin-half color-grey">
-    <small>{copyright}</small>
+    <small>
+        © {new Date().getFullYear()} - {copyright}
+        &emsp;<Rss /></small>
   </div>
 )
 
