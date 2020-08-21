@@ -61,13 +61,13 @@ const config = {
   sidebarLinks: [
    {
       label: "Naver Blog",
-      url: "https://blog.naver.com/daegyun"
+      url: "https://blog.naver.com/roundangular"
       }
   ],
   // Use for user info
   userName: "Daegyun", // Username to display in the author segment.
   userEmail: "daegyun.na@gmail.com", // Email used for RSS feed"s author segment
-  userTwitter: "@NaDaegyun", // Optionally renders "Follow Me" in the UserInfo segment.
+  userTwitter: "@daegyunna", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Yongin, South Korea", // User location to display in the author segment.
   userAvatar: "", // User avatar to display in the author segment.
   userDescription:
@@ -81,7 +81,7 @@ const config = {
       },
       {
           label: "Facebook",
-          url: "https://www.facebook.com/daegyun.na.5",
+          url: "https://www.facebook.com/nadaegyun",
           iconClassName: "fab facebook-square"
       },
       {
@@ -106,7 +106,7 @@ const config = {
       },
       {
           label: "GitHub",
-          url: "https://github.com/ndg1yo",
+          url: "https://github.com/daegyunna",
           iconClassName: "fab github-square"
       }
   ],
@@ -120,7 +120,7 @@ const config = {
     socialLinks: [
       {
       label: "Facebook",
-      url: "https://www.facebook.com/daegyun.na.5",
+      url: "https://www.facebook.com/nadaegyun",
       iconClassName: "fab facebook-square"
       },
       {
@@ -145,7 +145,7 @@ const config = {
       },
       {
       label: "GitHub",
-      url: "https://github.com/ndg1yo",
+      url: "https://github.com/daegyunna",
       iconClassName: "fab github-square"
       }
   ],
