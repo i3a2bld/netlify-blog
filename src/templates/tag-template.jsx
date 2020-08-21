@@ -86,7 +86,7 @@ export const pageQuery = graphql`
             categories
             cover {
               childImageSharp {
-                fluid(maxWidth: 660, quality: 100) {
+                fluid(maxWidth: 300, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }

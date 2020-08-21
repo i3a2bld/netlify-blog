@@ -50,7 +50,7 @@ module.exports = {
         {
           resolve: "gatsby-remark-images",
           options: {
-            maxWidth: 660,
+            maxWidth: 820,
             linkImagesToOriginal: false,
             quality: 100
           }
@@ -58,7 +58,7 @@ module.exports = {
         {
           resolve: 'gatsby-remark-embed-video',
           options: {
-            width: 660,
+            width: 820,
             ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
             related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
             noIframeBorder: true //Optional: Disable insertion of <style> border: 0
