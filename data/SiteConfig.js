@@ -4,12 +4,12 @@ const config = {
   siteTitleShort: "Realstic Dreamer", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Realstic Dreamer", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024x1024.png", // Logo used for SEO and manifest.
-    siteUrl: "https://roundangular.netlify.app/", // Domain of your website without pathPrefix.
+    siteUrl: "https://daegyun.netlify.app/", // Domain of your website without pathPrefix.
   pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "The purpose of this blog is to share information on living and travelling in South Korea with those who come from other countires and are living and travelling in South Korea and also some information about IT and Blog building", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRsstitle: "Daegyun's new feed",
-  siteRsslink: "http://feeds.feedburner.com/Roundangular",
+  siteRsslink: "http://feeds.feedburner.com/daegyun",
   siteLang: "en",
   siteFBAppID: "", // FB Application ID for using app insights
   googleAnalyticsID: "UA-175783895-1", // GA tracking ID.
@@ -61,7 +61,7 @@ const config = {
   sidebarLinks: [
    {
       label: "Naver Blog",
-      url: "https://blog.naver.com/roundangular"
+      url: "https://blog.naver.com/daegyun"
       }
   ],
   // Use for user info
@@ -155,7 +155,7 @@ const config = {
     { label: "Release", url: "/release" },
     { label: "Privacy", url: "/privacy" },
     { label: "Terms and Conditions", url: "/termsnconditions" },
-    { label: "Sitemap", url: "https:/roundangular.netlify.app/sitemap.xml" },
+    { label: "Sitemap", url: "https:/daegyun.netlify.app/sitemap.xml" },
   ],
   copyright: "Daegyun Na.", // Use for manifest
   backgroundColor: "#f7f0eb", // Used for setting manifest background color.
