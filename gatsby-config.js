@@ -41,7 +41,7 @@ module.exports = {
     options: {
       name: "posts",
       path: `${__dirname}/content/`,
-      ignore: `**/content/posts/drafts`,
+      ignore: [`**/posts/drafts`],
     },
   },
   {
