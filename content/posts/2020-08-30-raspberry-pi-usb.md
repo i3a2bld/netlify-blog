@@ -1,7 +1,7 @@
 ---
 template: "post"
 title: "Raspberry Pi - OS installation on USB"
-date: "2020-08-26 09:50"
+date: "2020-08-30 09:50"
 cover: "../images/20200830/2020083001.png"
 slug: "raspberry-pi-os-installation-USB"
 keywords: "RaspberryPi"

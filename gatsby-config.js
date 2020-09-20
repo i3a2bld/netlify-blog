@@ -40,8 +40,9 @@ module.exports = {
     resolve: "gatsby-source-filesystem",
     options: {
       name: "posts",
-      path: `${__dirname}/content/`
-    }
+      path: `${__dirname}/content/`,
+      ignore: `**/posts/drafts`,
+    },
   },
   {
     resolve: "gatsby-transformer-remark",

@@ -61,7 +61,7 @@ const config = {
   sidebarLinks: [
    {
       label: "Naver Blog",
-      url: "https://blog.naver.com/roundangular"
+      url: "https://blog.naver.com/i3a2bld"
       }
   ],
   // Use for user info
